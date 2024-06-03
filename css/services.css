@@ -1,0 +1,13 @@
+header .container .items a {
+  padding-bottom: 8px;
+}
+.choose-us {
+  padding: 50px;
+  /* margin-bottom: 50px; */
+}
+.choose-us .left {
+  width: 100%;
+}
+.choose-us .left .cards {
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+}

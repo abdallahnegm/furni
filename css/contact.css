@@ -1,0 +1,104 @@
+/*start variables*/
+:root {
+  --main-tran: 0.4s;
+  --main-color: #f9bf29;
+  --main-color-alt: #3b5d50;
+  --white-color: #fff;
+  --text-color: #2f2f2f;
+}
+/*end variables*/
+.contact {
+  background-color: #eff2f1;
+  padding-bottom: 100px;
+}
+.contact .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+}
+
+.contact .top {
+  display: flex;
+  gap: 50px;
+  padding-bottom: 50px;
+}
+@media (max-width: 992px) {
+  .contact .top {
+    flex-direction: column;
+  }
+}
+.contact .top .card {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  /* justify-content: space-evenly; */
+}
+.contact .top i {
+  background-color: var(--main-color-alt);
+  padding: 20px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+.contact .container p,
+.contact .container a {
+  color: #6a6e77;
+}
+.contact .container a {
+  text-decoration: underline;
+  transition: var(--main-tran);
+  -webkit-transition: var(--main-tran);
+  -moz-transition: var(--main-tran);
+  -ms-transition: var(--main-tran);
+  -o-transition: var(--main-tran);
+}
+.contact .container a:hover {
+  text-decoration: none;
+}
+.contact form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  /* gap: 20px; */
+}
+.contact input,
+.contact textarea {
+  background-color: var(--white-color);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  width: 100%;
+  margin-bottom: 20px;
+  outline: none;
+  border: 1px solid #6a6e77;
+  padding: 10px 20px;
+}
+.contact button {
+  width: max-content;
+  padding: 10px 20px;
+  border: none;
+  outline: none;
+  background-color: var(--main-color-alt);
+  color: var(--text-color);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  color: var(--white-color);
+  cursor: pointer;
+  transition: var(--main-tran);
+  -webkit-transition: var(--main-tran);
+  -moz-transition: var(--main-tran);
+  -ms-transition: var(--main-tran);
+  -o-transition: var(--main-tran);
+}
+.contact button:hover {
+  background-color: var(--white-color);
+  color: var(--main-color-alt);
+}
