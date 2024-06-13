@@ -16,3 +16,7 @@ header .container .items a {
   width: 100%;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
 }
+footer .footer-middle a {
+  margin: 10px 0;
+  display: inline-block;
+}

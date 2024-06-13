@@ -603,7 +603,7 @@ header .bar {
 }
 .helping .right .explore:hover {
   background-color: var(--white-color);
-  color: var(--text-color);
+  color: var(--main-color-alt);
 }
 /* end helping  */
 /* start products  */
@@ -1306,8 +1306,7 @@ header .bar {
 /* start footer  */
 footer {
   background-color: var(--white-color);
-  padding: 20px;
-  padding-bottom: 50px;
+  padding: 100px 20px;
 }
 footer .container .footer-up {
   display: flex;
@@ -1405,6 +1404,7 @@ footer .footer-middle a {
   -moz-transition: var(--main-tran);
   -ms-transition: var(--main-tran);
   -o-transition: var(--main-tran);
+  display: inline-block;
 }
 footer .footer-middle .social-icons a {
   background-color: #dce5e4;

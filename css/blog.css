@@ -1,3 +1,7 @@
 header .container .items a {
   padding-bottom: 8px;
 }
+footer .footer-middle a {
+  margin: 10px 0;
+  display: inline-block;
+}

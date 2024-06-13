@@ -102,3 +102,7 @@
   background-color: var(--white-color);
   color: var(--main-color-alt);
 }
+footer .footer-middle a {
+  margin: 10px 0;
+  display: inline-block;
+}

@@ -4,3 +4,7 @@ header .container .items a {
 .choose-us {
   padding-top: 100px;
 }
+footer .footer-middle a {
+  margin: 10px 0;
+  display: inline-block;
+}
